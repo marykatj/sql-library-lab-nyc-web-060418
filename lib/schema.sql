@@ -36,5 +36,4 @@ CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
   character_id INTEGER,
   book_id INTEGER
-SELECT books.id, characters.id FROM books INNER JOIN characters ON books.id = characters.id
 );
